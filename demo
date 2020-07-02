@@ -1,0 +1,7 @@
+#import libraries
+import networkx as nx
+nodelist = []
+nodenum = int(input('Number of nodes: '))
+for i in range (1,nodenum+1):
+  node = input('Enter {} node name: '.format(i))
+
